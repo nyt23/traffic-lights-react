@@ -1,8 +1,10 @@
-# React + Vite
+# React `useState` exercise
+Create a traffic light, which switches to the next state when a button is clicked, when the last state is reached, it returns to the first state.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+State:
+- red
+- red + yellow
+- green
+- yellow
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![traffic-lights](https://github.com/nyt23/traffic-lights-react/assets/153197020/2a3baf51-9cc4-4e2a-b89e-17ae0aa66e78)
