@@ -1,0 +1,72 @@
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    align-items: center;
+    justify-content: center;
+}
+button:hover {
+    border: 2px solid #646cff;
+}
+
+
+/*@media (prefers-color-scheme: light) {*/
+/*    :root {*/
+/*        color: #213547;*/
+/*        background-color: #ffffff;*/
+/*    }*/
+/*    a:hover {*/
+/*        color: #747bff;*/
+/*    }*/
+/*    button {*/
+/*        background-color: #f9f9f9;*/
+/*    }*/
+/*}*/
+
+.traffic-lights-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.traffic-lights {
+    width: 100px;
+    background-color: #242424;
+    padding: 20px 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    gap: 20px;
+    margin-bottom: 40px;
+    border-right: 10px solid #646cff;
+    border-bottom: 10px solid #646cff;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(189,189,189,0.84);
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
